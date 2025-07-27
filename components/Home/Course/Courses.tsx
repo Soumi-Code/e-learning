@@ -5,6 +5,7 @@ import CourseCard from './CourseCard'
 
 const Courses = () => {
   return (
+    <section id="courses" className="scroll-mt-[12vh]">
     <div className='pt-16 pb-12 relative bg-gray-200'>
       <Image src="/images/cb.png" alt="image" width={800} height={800} className='absolute top-[30%] animate-bounce'/>
       <div className='w-[80%] pt-8 pb-8 mx-auto'>
@@ -20,6 +21,7 @@ const Courses = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

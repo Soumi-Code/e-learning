@@ -1,8 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
 import { FaArrowRight, FaAward } from 'react-icons/fa'
 
 const About = () => {
   return (
+    <section id="about" className="scroll-mt-[12vh]">
     <div className='pt-16 pb-16'>
       {/* define grid */}
       <div className='w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16'>
@@ -16,10 +18,12 @@ const About = () => {
         </div>
         <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[3.9rem] text-gray-800'>Online learning wherever and whenever.</h1>
         <p className='mt-4 text-gray-600'>Gain access to top-quality courses taught by industry experts—available 24/7 from any device. Whether you're learning for career growth or personal development, we've got you covered.{" "}</p>
+        <Link href="#features">
         <button className='flex items-center space-x-2 px-8 py-3 mt-8 hover:bg-gray-700 transition-all duration-200 rounded-3xl bg-black text-white'>
             <span>Learn More</span>
             <FaArrowRight />
         </button>
+        </Link>
       </div>
       {/* 2nd part */}
       <div>
@@ -48,6 +52,7 @@ const About = () => {
       </div>
       </div>
     </div>
+    </section>
   )
 }
 

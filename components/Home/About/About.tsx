@@ -49,7 +49,7 @@ const About = () => {
                 <p className='w-[90%] lg:w-[70%] text-base text-black opacity-60'>Get high-value education without breaking the bank. Our affordable pricing and free resources make learning accessible for everyone.</p>
             </div>
         </div>
-      </div>
+       </div>
       </div>
     </div>
     </section>

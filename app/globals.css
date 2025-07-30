@@ -3,18 +3,18 @@
 @layer components {
   .nav_link {
     position: relative;
-    font-size: 1.25rem; /* text-xl */
-    width: fit-content; /* w-fit */
+    font-size: 1.25rem; 
+    width: fit-content; 
     display: block;
-    font-weight: 600; /* font-semibold */
-    color: #fff; /* text-white */
+    font-weight: 600; 
+    color: #fff; 
   }
   .nav_link::after {
     display: block;
     content: '';
     position: absolute;
     height: 3px;
-    background-color: #facc15; /* bg-yellow-400 */
+    background-color: #facc15; 
     width: 100%;
     transform: scaleX(0);
     transition: transform 300ms;
@@ -23,8 +23,29 @@
   .nav_link:hover::after {
     transform: scaleX(1);
   }
+
+  .footer_heading {
+    font-size: 1.125rem; 
+    color: #fff; 
+    font-weight: 700; 
+    margin-bottom: 1rem; 
+  }
+
+  .footer_link {
+    font-size: 0.875rem; 
+    color: rgba(255,255,255,0.6); 
+    cursor: pointer; 
+    margin-bottom: 0.75rem; 
+    width: fit-content; 
+    transition: color 0.2s;
+  }
+  .footer_link:hover {
+    color: #047857; 
+  }
 }
+
 
 html {
   scroll-behavior: smooth;
 }
+

@@ -15,6 +15,7 @@ const Home = () => {
       <Feature/>
       <Review/>
       <Article/>
+      
     </div>
   )
 }

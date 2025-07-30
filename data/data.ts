@@ -75,6 +75,7 @@ export const articleData = [
     reaction: 45,
     coverImage: "/images/b1.jpg",
     title: "Understanding JavaScript",
+    description: "Learn essential JavaScript fundamentals that form the backbone of modern web development today.",
   },
   {
     id: 2,
@@ -83,6 +84,7 @@ export const articleData = [
     reaction: 78,
     coverImage: "/images/b2.jpg",
     title: "A Guide to Node.js Event Loop",
+    description: "Explore how Node.js manages asynchronous tasks efficiently using its powerful event loop mechanism.",
   },
   {
     id: 3,
@@ -91,5 +93,6 @@ export const articleData = [
     reaction: 62,
     coverImage: "/images/b3.jpg",
     title: "Introduction to React Hooks",
+    description: "Understand how React Hooks bring state and side effects to functional component-based development.",
   },
 ];

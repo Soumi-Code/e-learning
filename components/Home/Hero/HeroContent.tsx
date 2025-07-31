@@ -4,18 +4,18 @@ import React from 'react'
 const HeroContent = () => {
   return (
     <div>
-      <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white'>Best online platform for education.</h1>
-      <p className='mt-6 text-sm md:text-base text-white text-opacity-60'>Upgrade your skills, unlock your potential, and shape your future with powerful online learning.</p>
+      <h1 data-aos = "fade-right" className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white'>Best online platform for education.</h1>
+      <p data-aos = "fade-left" data-aos-delay="150" className='mt-6 text-sm md:text-base text-white text-opacity-60'>Upgrade your skills, unlock your potential, and shape your future with powerful online learning.</p>
       <div className='mt-8 flex items-center space-x-4'>
         <Link href="#courses">
-        <button className='md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-green-700 hover:bg-green-900'>Get Started</button>
+        <button data-aos = "zoom-in" data-aos-delay="300" className='md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-green-700 hover:bg-green-900'>Get Started</button>
         </Link>
         <Link href="#about">
-        <button className='md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-yellow-700 hover:bg-yellow-900'>Learn More</button>
+        <button data-aos = "zoom-in" data-aos-delay="450" className='md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-yellow-700 hover:bg-yellow-900'>Learn More</button>
         </Link>
       </div>
       <div className='flex items-center flex-wrap space-x-16 mt-8'>
-        <div>
+        <div data-aos = "fade-up" data-aos-delay="600">
             <p className='md:text-xl lg:text-2xl text-base text-white font-bold'>
                 260+
             </p>
@@ -24,7 +24,7 @@ const HeroContent = () => {
                 Tutors
             </p>
         </div> 
-        <div>
+        <div data-aos = "fade-up" data-aos-delay="750">
             <p className='md:text-xl lg:text-2xl text-base text-white font-bold'>
                 2260+
             </p>
@@ -33,7 +33,7 @@ const HeroContent = () => {
                 Students
             </p>
         </div> 
-        <div>
+        <div data-aos = "fade-up" data-aos-delay="900">
             <p className='md:text-xl lg:text-2xl text-base text-white font-bold'>
                 60+
             </p>

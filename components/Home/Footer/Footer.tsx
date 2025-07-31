@@ -48,7 +48,7 @@ const Footer = () => {
             type="email"
             placeholder='Enter your email'
             className='px-6 py-2 rounded-lg outline-none bg-gray-700 w-full text-white'/>
-            <button className='px-6 py-2 rounded-lg outline-none bg-rose-700 text-white mt-4'>Subscribe</button>
+            <button className='px-6 py-2 rounded-lg outline-none bg-rose-700 text-white mt-4 hover:bg-rose-900'>Subscribe</button>
         </div>
       </div>
       <p className='text-center text-base text-white text-opacity-70 mt-4'>&copy; Copyright 2025. All rights reserved</p>

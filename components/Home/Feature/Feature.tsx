@@ -26,7 +26,7 @@ const Feature = () => {
                     <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[3.9rem] text-gray-800'>Providing amazing online courses.</h1>
                     <div className='mt-8 mb-6'>
                         <h1 className='text-lg md:text-2xl text-black text-opacity-70 font-semibold'>Master the skills that matter to you</h1>
-                        <p className='text-sm md:text-base text-black text-opacity-70 mt-4'>Whether you're aiming for a promotion, career change, or personal development, our curated courses are tailored to help you succeed in today’s fast-changing world.</p>
+                        <p className='text-sm md:text-base text-black text-opacity-70 mt-4'>Whether you're aiming for a promotion, career change, or personal development, our curated courses are tailored to help you succeed in today&apos;s fast-changing world.</p>
                     </div>
                     <div className='mt-8 mb-6'>
                         <h1 className='text-lg md:text-2xl text-black text-opacity-70 font-semibold'>Increase your learning skills</h1>

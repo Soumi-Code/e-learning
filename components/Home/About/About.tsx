@@ -17,7 +17,7 @@ const About = () => {
             <h1 className='text-xl text-black font-semibold'>Guaranteed and certified</h1>
         </div>
         <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[3.9rem] text-gray-800'>Online learning wherever and whenever.</h1>
-        <p className='mt-4 text-gray-600'>Gain access to top-quality courses taught by industry experts—available 24/7 from any device. Whether you're learning for career growth or personal development, we've got you covered.{" "}</p>
+        <p className='mt-4 text-gray-600'>Gain access to top-quality courses taught by industry experts—available 24/7 from any device. Whether you&apos;re looking to upgrade your skills, boost your learning for career growth or personal development, we&apos;ve got you covered.{" "}</p>
         <Link href="#features">
         <button className='flex items-center space-x-2 px-8 py-3 mt-8 hover:bg-gray-700 transition-all duration-200 rounded-3xl bg-black text-white'>
             <span>Learn More</span>

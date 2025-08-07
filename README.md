@@ -45,3 +45,7 @@ Open [http://localhost:3000] in your browser to see the result.
 - Add admin panel for content management
 - Add user notifications and messaging
 - Support for multimedia content (videos, PDFs, etc.)
+
+## Check out the website
+
+https://e-learning-soumi-rays-projects.vercel.app/

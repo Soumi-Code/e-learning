@@ -31,6 +31,7 @@ const Nav = ({openNav}:Props) => {
     })
 
   return (
+    <section id="home" className="scroll-mt-[12vh]">
     <div className={`fixed ${navBg ? "bg-indigo-800" : "fixed"} w-full transition-all duration-200 h-[12vh] z-[1000]`}>
       <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
         {/* Logo */}
@@ -53,6 +54,7 @@ const Nav = ({openNav}:Props) => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

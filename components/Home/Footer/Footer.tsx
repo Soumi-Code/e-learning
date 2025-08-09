@@ -4,6 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
   return (
+    <section id="contact" className="scroll-mt-[12vh]">
     <div className='pt-20 pb-12 bg-black'>
       {/* Define grid */}
       <div className='w-[80%] mx-auto grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-8 border-b-[1.5px] border-white border-opacity-20'>
@@ -53,6 +54,7 @@ const Footer = () => {
       </div>
       <p className='text-center text-base text-white text-opacity-70 mt-4'>&copy; Copyright 2025. All rights reserved</p>
     </div>
+    </section>
   )
 }
 

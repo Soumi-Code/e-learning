@@ -48,4 +48,4 @@ Open [http://localhost:3000] in your browser to see the result.
 
 ## Check out the website
 
-https://e-learning-soumi-rays-projects.vercel.app/
+https://think-edge-soumi-rays-projects.vercel.app/
